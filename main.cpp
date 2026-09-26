@@ -20,13 +20,16 @@ int main(){
 } // end main
 
 void convertLine(std::string line){
+    int fileA = 0;
+    int fileB = 0;
     std::string word;
-    std::stringstream ss(line);            
+    std::stringstream ss(line);
 
-    while (ss >> word) {
-        std::cout << word;             
+    while (getline(ss, word, ',')) {
+        std::cout << word << std::endl;
     }
     std::cout << '\n';
+    
 } // end convertLine
 
 void outputLine(int a, int b, std::string word){

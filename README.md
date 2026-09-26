@@ -4,7 +4,7 @@ File IO in C++
 
 ## main
 ```
-import libraries (iostream fstream string)
+import libraries (iostream fstream string sstream)
 
 open data.csv
 declare a string
